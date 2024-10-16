@@ -1,6 +1,6 @@
 def print_pyramid(n: int):
-    # TODO: implement this function
-    raise NotImplementedError
+    for i in range(n):
+        print(" " * (n - i - 1) + "*" * (2 * i + 1))
 
 
 def print_inverted_pyramid(n: int):
