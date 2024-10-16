@@ -9,6 +9,6 @@ def print_inverted_pyramid(n: int):
 
 
 if __name__ == "__main__":
-    N = input()
+    N = int(input())
     print_pyramid(N)
     print_inverted_pyramid(N)
